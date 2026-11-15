@@ -1,4 +1,6 @@
-# travel-recommender
-국내 여행지 추천 서비스 K-Guide의 추천 모델 구현 저장소입니다.
-담당: 사용자 조건 기반 여행지 추천 모델, 학습 데이터 36,569건, Hit Rate@3 95.45%
-코드는 순차적으로 업로드 중입니다.
+### 주제 : 사용자 취향에 따라 국내 여행지, 일정 등을 짜주는 챗봇 형식의 서비스
+requirements.txt 파일에 사용했던 라이브러리들이 있습니다.<br>
+가상환경 구축 이후에 다음의 명령어를 터미널에 입력해 라이브러리를 설치합니다.<br>
+`pip install -r requirments.txt`<br><br>
+추가적인 라이브러리를 설치했다면, 다음의 명령어를 통해 requirements.txt 업데이트해주세요.<br>
+`pip freeze > requirments.txt`<br><br>
