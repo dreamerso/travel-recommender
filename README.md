@@ -24,7 +24,7 @@ requirements.txt 파일에 사용했던 라이브러리들이 있습니다.<br>
 `pip install -r requirments.txt`<br><br>
 추가적인 라이브러리를 설치했다면, 다음의 명령어를 통해 requirements.txt 업데이트해주세요.<br>
 `pip freeze > requirments.txt`<br><br>
-`.env`에 다음 환경 변수를 직접 넣어야 합니다. (값은 저장소에 포함되어 있지 않습니다.)
+`.env`에 다음 환경 변수를 직접 넣어야 합니다. (값은 저장소에 포함되어 있지 않습니다.)<br>
 `OPENAI_API_KEY`, `KAKAO_REST_API_KEY`, `PUBLIC_DATA_KEY`, `DATA_API_KEY`, `TOUR_API_KEY`, `HOLIDAY_KEY`
 
 `.pkl` 파일은 직접 학습한 모델이며, 출처가 불분명한 pkl은 로드하지 마세요.
